@@ -4,7 +4,7 @@ Author: Bram van Berlo - b.r.d.v.berlo@tue.nl
 ### Requirements
 In the requirements.txt file the needed python modules for this project are specified.
 
-## Preprocessing steps
+### Preprocessing steps
 The pre-processed datasets in '../Data' are created using the pre-processing scripts in 'pre-processing/'.
 Links to the original datasets have been added to this subdirectory as well.
 The pre-processing scripts are not part of the audit procedure and can therefore not be run automatically.
@@ -33,7 +33,7 @@ Depending on pre-processing script, follow either one of the following set of st
 6) Place the abovementioned .mat files in the 'raw' folder.
 7) Execute pre-processing script in subdirectory with script option -t. Possible values: env_home, env_lab, and user_lab.
 
-# Reproducing results
+### Reproducing results
 
 The run.sh file includes all bash commands which should be run to acquire the results used in Figures 4-9, Figure 10a-b, and Figures 11-13 of the journal paper.
 Prior to running the bash commands, make sure that all packages listed in the requirements.txt file are installed.
@@ -44,7 +44,7 @@ Bash command for acquiring results presented in Figure 10c is not provided. Reas
 Bash command for acquiring TIME results presented in Table 2 is not provided. Reason being that it is easier to extract timing information manually from STDOUT information written into a .txt file. While running one of the python bash commands in run.sh, write STDOUT to .txt file. Subsequently, extract time in seconds information for epoch 2 (epoch 1's time is offset due to Just in Time (JiT) compilation).
 Other results presented in Table 2 is static hardware information for the Amazon EC2 g5.4xlarge and g5.24xlarge instances.
 
-## Plots
+### Plots
 
 Figure plots inside the journal paper were created by processing the .csv formatted results with MS Excel into a chart structure.
 
@@ -56,3 +56,4 @@ The function outputs should be structured according to a bar chart structure com
 In every .csv file, there are also columns called 'val_categorical_accuracy' and 'A'. Figures 5, 7, 9, and 12 can be created by, for the respective benchmark pipeline, dataset, and domain-leave-out CV split, overlaying a square with max. height at value of 'A' over 'val_categorical_accuracy' plot. 
 
 Figure 10a-b can be created by, for the respective benchmark pipeline, dataset, and domain-leave-out CV split, plotting the first left-hand side columns called 'loss' and 'val_loss'.  
+
