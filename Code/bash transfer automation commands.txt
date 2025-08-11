@@ -1,0 +1,62 @@
+PLEASE NOTE: NO SUPPORT FOR ALT FLOW, DOMAIN AWARE FILTER, AND DOMAIN AWARE BATCH.
+EDIT RESPECTIVE EXPERIMENT SCRIPTS WHERE APPLICABLE TO ADD SUPPORT.
+
+python experiment_automation_transfer.py -m_n supervised_no_domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t user -h_a 0
+
+python experiment_automation_transfer.py -m_n no_domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t user -h_a 0
+
+python experiment_automation_transfer.py -m_n domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t user -h_a 0
+
+python experiment_automation_transfer.py -m_n multilabel_domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t user -h_a 0
+
+python experiment_automation_transfer.py -m_n multilabel_domain_class_2 -d widar3 -d_t ampphase -t domain-leave-out -do_t user -h_a 0
+
+
+python experiment_automation_transfer.py -m_n supervised_no_domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t user -h_a 1
+python experiment_automation_transfer.py -m_n supervised_no_domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t environment -h_a 1
+
+python experiment_automation_transfer.py -m_n no_domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t user -h_a 1
+python experiment_automation_transfer.py -m_n no_domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t environment -h_a 1
+
+python experiment_automation_transfer.py -m_n domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t user -h_a 1
+python experiment_automation_transfer.py -m_n domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t environment -h_a 1
+
+python experiment_automation_transfer.py -m_n multilabel_domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t user -h_a 1
+python experiment_automation_transfer.py -m_n multilabel_domain_class -d widar3 -d_t ampphase -t domain-leave-out -do_t environment -h_a 1
+
+python experiment_automation_transfer.py -m_n multilabel_domain_class_2 -d widar3 -d_t ampphase -t domain-leave-out -do_t user -h_a 1
+python experiment_automation_transfer.py -m_n multilabel_domain_class_2 -d widar3 -d_t ampphase -t domain-leave-out -do_t environment -h_a 1
+
+
+
+
+python experiment_automation_transfer.py -m_n supervised_no_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t user -h_a 0
+python experiment_automation_transfer.py -m_n supervised_no_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t environment -h_a 0
+
+python experiment_automation_transfer.py -m_n no_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t user -h_a 0
+python experiment_automation_transfer.py -m_n no_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t environment -h_a 0
+
+python experiment_automation_transfer.py -m_n domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t user -h_a 0
+python experiment_automation_transfer.py -m_n domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t environment -h_a 0
+
+python experiment_automation_transfer.py -m_n multilabel_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t user -h_a 0
+python experiment_automation_transfer.py -m_n multilabel_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t environment -h_a 0
+
+python experiment_automation_transfer.py -m_n multilabel_domain_class_2 -d signfi -d_t ampphase -t domain-leave-out -do_t user -h_a 0
+python experiment_automation_transfer.py -m_n multilabel_domain_class_2 -d signfi -d_t ampphase -t domain-leave-out -do_t environment -h_a 0
+
+
+python experiment_automation_transfer.py -m_n supervised_no_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t user -h_a 1
+python experiment_automation_transfer.py -m_n supervised_no_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t environment -h_a 1
+
+python experiment_automation_transfer.py -m_n no_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t user -h_a 1
+python experiment_automation_transfer.py -m_n no_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t environment -h_a 1
+
+python experiment_automation_transfer.py -m_n domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t user -h_a 1
+python experiment_automation_transfer.py -m_n domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t environment -h_a 1
+
+python experiment_automation_transfer.py -m_n multilabel_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t user -h_a 1
+python experiment_automation_transfer.py -m_n multilabel_domain_class -d signfi -d_t ampphase -t domain-leave-out -do_t environment -h_a 1
+
+python experiment_automation_transfer.py -m_n multilabel_domain_class_2 -d signfi -d_t ampphase -t domain-leave-out -do_t user -h_a 1
+python experiment_automation_transfer.py -m_n multilabel_domain_class_2 -d signfi -d_t ampphase -t domain-leave-out -do_t environment -h_a 1

@@ -1,0 +1,2 @@
+Widar3: https://ieee-dataport.org/open-access/widar-30-wifi-based-activity-recognition-dataset
+SignFi: https://github.com/yongsen/SignFi
